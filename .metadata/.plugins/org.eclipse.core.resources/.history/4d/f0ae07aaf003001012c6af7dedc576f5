@@ -1,0 +1,12 @@
+spring.application.name=currency-conversion
+
+server.port=8100
+
+spring.config.import=optional:configserver:http://localhost:8888
+
+
+#http://localhost:8100/Currency-conversion/from/USD/to/INR/quantity/10
+
+
+eureka.client.service-url.defaultZone=http://localhost:8761/eureka/
+eureka.instance.hostname=localhost

@@ -1,0 +1,5 @@
+package com.currencyconversion.controller.beans;
+
+public class CurrencyConversion {
+
+}

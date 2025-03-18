@@ -1,0 +1,5 @@
+package com.codekaro.beans;
+
+public class CurrencyExchange {
+
+}

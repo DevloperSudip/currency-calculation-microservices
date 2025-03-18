@@ -1,0 +1,17 @@
+package com.currencyconversion.controller;
+
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+
+
+@RestController
+public class CurrencyConversionController {
+	
+	@GetMapping("/Currency-conversion/from/{from}/to/{to}/quantity/{quantity}")
+	public CurrencyConversio calculationCurrencyConversio(@RequestParam String param) {
+		return new CurrencyConversio();
+	}
+	
+
+}
